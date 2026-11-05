@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Dogs That Fit</title>
+<meta name="description" content="Get in touch with Sarah at Dogs That Fit, or book a free 15-minute call.">
+<link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="wrap nav" aria-label="Main">
+    <a class="logo" href="index.html"><img class="logo-mark" src="images/logo-mark.png" alt="">Dogs That Fit</a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="puppy-programme.html">Puppy Programme</a></li>
+<li><a href="guides.html">Guides</a></li>
+<li><a href="older-dogs.html">Older Dogs</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html" aria-current="page">Contact</a></li>
+      <li><a class="btn" href="https://tidycal.com/dogsthatfit/15-minute-discovery-call" style="color:var(--cream)">Book a free call</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+
+<section class="hero">
+  <div class="wrap two-col">
+    <div class="reveal">
+      <span class="eyebrow">Contact</span>
+      <h1>Let's talk about your puppy</h1>
+      <p class="lead">The quickest way to start is a free 15-minute call.</p>
+      <div class="btn-row"><a class="btn" href="https://tidycal.com/dogsthatfit/15-minute-discovery-call">Book a free call</a></div>
+      <p style="margin-top:28px">Or email me at <a href="mailto:dogsthatfit@gmail.com">dogsthatfit@gmail.com</a>.</p>
+    </div>
+    <div class="reveal">
+      <form class="form offer" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="thanks.html">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hidden"><label>Leave this empty <input name="bot-field"></label></p>
+        <div><label for="name">Your name</label><input id="name" name="name" required></div>
+        <div><label for="email">Email</label><input id="email" name="email" type="email" required></div>
+        <div><label for="dog">Your dog's name and age</label><input id="dog" name="dog"></div>
+        <div><label for="message">How can I help?</label><textarea id="message" name="message" rows="5" required></textarea></div>
+        <button class="btn" type="submit">Send message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo"><img src="images/logo-mark.png" alt="">Dogs That Fit</div>
+        <p>Force-free puppy training from Cheltenham, with remote support wherever you are.</p>
+        <p><a href="mailto:dogsthatfit@gmail.com">dogsthatfit@gmail.com</a></p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="puppy-programme.html">30-Day Puppy Programme</a></li>
+          <li><a href="guides.html">Puppy guides</a></li>
+          <li><a href="older-dogs.html">Older dogs</a></li>
+          <li><a href="about.html">About Sarah</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Get in touch</h3>
+        <ul>
+          <li><a href="https://tidycal.com/dogsthatfit/15-minute-discovery-call">Book a free 15-minute call</a></li>
+          <li><a href="contact.html">Send a message</a></li>
+          <li><a href="privacy.html">Privacy policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; <span id="yr"></span> Dogs That Fit. All training is force-free.</div>
+  </div>
+</footer>
+<script src="js/site.js"></script>
+</body>
+</html>
